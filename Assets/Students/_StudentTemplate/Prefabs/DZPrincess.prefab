@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 3394830295934840159}
   - component: {fileID: 3394830295934840144}
   - component: {fileID: 3394830295934840156}
-  - component: {fileID: -2717324316930172345}
+  - component: {fileID: 1293405463983633340}
   m_Layer: 0
-  m_Name: MALPrincess
+  m_Name: DZPrincess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 00162698c298f4cce978ff7b8d207bf9, type: 3}
-  m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.6509804}
+  m_Color: {r: 0.049723387, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -221,8 +221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   check: 1
   gridScript: {fileID: 0}
-  hueristic: {fileID: -2717324316930172345}
---- !u!114 &-2717324316930172345
+  hueristic: {fileID: 0}
+--- !u!114 &1293405463983633340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,6 +231,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3394830295934840147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cec74fdc7b718e541b60715e253f9dd3, type: 3}
+  m_Script: {fileID: 11500000, guid: dd73230808056bd49bd577bffc819ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gridScript: {fileID: 0}
+  k: -3
+  b: 0.1
